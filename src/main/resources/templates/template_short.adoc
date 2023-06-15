@@ -1,0 +1,11 @@
+= Архитектура решения
+:toc:
+:toc-title: Содержание
+
+== Глоссарий
+${Terms}
+
+== Контекст решения
+image::${ContextImage}[Диаграмма контекста C4]
+
+${ContextDescription}

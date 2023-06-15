@@ -1,0 +1,83 @@
+{
+"event": {
+"header": {
+"namespace": "Vins",
+"name": "TextInput",
+"messageId": "${MessageGUID}",
+"seqNumber": ${MessageNumber}
+},
+"payload": {
+"application": {
+"app_id": "ru.yandex.webdesktop",
+"app_version": "2023-06-06-297.1",
+"platform": "windows",
+"os_version": "mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/113.0",
+"uuid": "${SessionUUID}",
+"lang": "ru-RU",
+"client_time": "${TimeGMT}",
+"timezone": "Europe/Moscow",
+"timestamp": "${TimeUnix}"
+},
+"header": {
+"prev_req_id": null,
+"sequence_number": null,
+"request_id": "${RequestGUID}",
+"dialog_id": "${DialogGUID}"
+},
+"request": {
+"event": {
+"name": "new_dialog_session",
+"payload": {
+"should_be_silent": true,
+"request": "",
+"@request_id": "${PrvRequestGUID}",
+"original_utterance": "",
+"source": "undetected",
+"@scenario_name": "Dialogovo",
+"dialog_id": "${DialogGUID}"
+},
+"ignore_answer": false,
+"type": "server_action"
+},
+"voice_session": false,
+"experiments": [
+"search_use_cloud_ui",
+"weather_use_cloud_ui",
+"enable_open_link_and_cloud_ui",
+"hw_onboarding_enable_greetings",
+"remove_feedback_suggests",
+"shopping_list",
+"enable_external_skills_for_webdesktop_and_webtouch",
+"send_show_view_directive_on_supports_show_view_layer_content_interface",
+"use_app_host_pure_Dialogovo_scenario"
+],
+"additional_options": {
+"bass_options": {
+"screen_scale_factor": 1
+},
+"supported_features": [
+"open_link",
+"server_action",
+"cloud_ui",
+"cloud_first_screen_div",
+"cloud_ui_filling",
+"show_promo",
+"show_view_layer_content",
+"reminders_and_todos",
+"div2_cards"
+],
+"unsupported_features": [
+"player_pause_directive"
+]
+},
+"location": {
+"lat": 55.755863,
+"lon": 37.6177
+}
+},
+"format": "audio/ogg;codecs=opus",
+"mime": "audio/webm;codecs=opus",
+"topic": "desktopgeneral"
+}
+}
+}

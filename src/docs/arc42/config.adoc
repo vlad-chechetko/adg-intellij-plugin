@@ -1,0 +1,14 @@
+// asciidoc settings for EN (English)
+// ==================================
+:toc-title: table of contents
+
+// enable table-of-contents
+:toc:
+
+// where are images located?
+:imagesdir: ./images
+
+:xrefstyle: short
+
+:uri-repo-main: https://github.com/docToolchain/drawio-intellij-plugin/blob/main/src/main
+:uri-repo-kotlin: {uri-repo-main}/kotlin/de/docs_as_co/intellij/plugin/drawio
